@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: opacity .8s ease-in;
+  -o-transition: opacity .8s ease-in;
+  transition: opacity .8s ease-in;
+}
+
+.link:hover {
+  opacity: .5;
+}

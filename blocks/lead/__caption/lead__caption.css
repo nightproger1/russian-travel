@@ -1,0 +1,22 @@
+.lead__caption {
+  margin: 0.5rem 0 0;
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    width: calc(100% - 48px);
+    margin: 0.5rem auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    width: 90%;
+  }
+}
