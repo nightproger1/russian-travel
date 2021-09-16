@@ -14,8 +14,8 @@
 
 @media screen and (max-width: 1024px) {
   .places__place {
-    -ms-grid-columns: 1fr 2rem 1fr;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 42.96875vw 2rem 1fr;
+    grid-template-columns: 42.96875vw 1fr;
     gap: 3rem 2rem;
   }
 }
