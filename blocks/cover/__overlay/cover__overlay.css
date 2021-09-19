@@ -1,19 +1,11 @@
 .cover__overlay {
-  max-width: 100%;
-  /* 740/1184*100% */
-  padding-top: 62.5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  max-width: 1180px;
+  min-height: 200px;
+  padding: 245px 0;
+  display: grid;
+  justify-items: center;
   position: relative;
   background-image: url(../../../images/cover/background.png);
-  background-position: center;
   background-size: cover;
   text-decoration: none;
 }
@@ -35,4 +27,25 @@
 
 .cover__overlay:hover::before {
   opacity: .5;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    padding: 115px 0;
+  }
+}
+
+
+
+@media screen and (max-width: 425px) {
+  .cover__overlay {
+    padding: 33px 0;
+    box-sizing: border-box;
+  }
 }
