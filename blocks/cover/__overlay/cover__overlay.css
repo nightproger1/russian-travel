@@ -2,11 +2,13 @@
   max-width: 1180px;
   min-height: 200px;
   padding: 245px 0;
+  display: -ms-grid;
   display: grid;
   justify-items: center;
   position: relative;
   background-image: url(../../../images/cover/background.png);
   background-size: cover;
+  background-position: center;
   text-decoration: none;
 }
 
@@ -26,7 +28,7 @@
 }
 
 .cover__overlay:hover::before {
-  opacity: .5;
+  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {

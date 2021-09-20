@@ -6,6 +6,13 @@
   font-weight: 900;
 }
 
+@media screen and (max-width: 1024px) {
+  .places__title {
+    font-size: 7.031vw;
+    line-height: 7.422vw;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .places__title {
     max-width: 95%;

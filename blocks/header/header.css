@@ -31,20 +31,10 @@
   }
 }
 
-@media screen and (max-width: 425) {
-  .header {
-    padding-top: 1rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .header {
-    max-width: 343px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .header {
     width: calc(100% - 32px);
+    padding-top: 1rem;
+
   }
 }
