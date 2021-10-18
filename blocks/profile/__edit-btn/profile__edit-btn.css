@@ -1,0 +1,29 @@
+.profile__edit-btn {
+  width: 24px;
+  height: 24px;
+  /* (48-24)/2=12px=.75rem */
+  margin-top: .75rem;
+  margin-left: 1.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  background-color: transparent;
+  transition: all linear .2s;
+  cursor: pointer;
+  outline: none;
+}
+
+.profile__edit-btn:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__edit-btn {
+    width: 18px;
+    height: 18px;
+    /* 26-18=8px=.5rem по макету считал */
+    margin-top: .5rem;
+    margin-left: 10px;
+  }
+}
